@@ -1,0 +1,27 @@
+{
+    "id": 139887085293136,
+    "scene_width": 64000,
+    "scene_height": 64000,
+    "nodes": [
+        {
+            "id": 139886439789664,
+            "title": "Master",
+            "pos_x": -159.0,
+            "pos_y": -13.0,
+            "inputs": [],
+            "outputs": [],
+            "content": {},
+            "op_code": 2
+        },
+        {
+            "id": 139886439867536,
+            "title": "Master",
+            "pos_x": 91.0,
+            "pos_y": -148.0,
+            "inputs": [],
+            "outputs": [],
+            "content": {},
+            "op_code": 2
+        }
+    ]
+}

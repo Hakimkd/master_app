@@ -1,0 +1,19 @@
+{
+    "id": 140337722257120,
+    "scene_width": 64000,
+    "scene_height": 64000,
+    "nodes": [
+        {
+            "id": 140337118335472,
+            "title": "name",
+            "pos_x": -54.0,
+            "pos_y": -158.0,
+            "inputs": [],
+            "outputs": [],
+            "content": {
+                "value": ""
+            },
+            "op_code": 1
+        }
+    ]
+}
