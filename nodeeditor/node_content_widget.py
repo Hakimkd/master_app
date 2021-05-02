@@ -22,7 +22,6 @@ class QDMNodeContentWidget(QWidget, Serializable):
         """
         self.node = node
         super().__init__(parent)
-
         self.initUI()
 
     def initUI(self):

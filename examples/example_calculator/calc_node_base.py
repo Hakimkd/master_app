@@ -11,8 +11,8 @@ from nodeeditor.utils import dumpException
 class CalcGraphicsNode(QDMGraphicsNode):
     def initSizes(self):
         super().initSizes()
-        self.width = 160
-        self.height = 100
+        self.width = 170
+        self.height = 200
         self.edge_roundness = 6
         self.edge_padding = 0
         self.title_horizontal_padding = 8
@@ -39,7 +39,7 @@ class CalcNode(Node):
     GraphicsNode_class = CalcGraphicsNode
     NodeContent_class = CalcContent
 
-    def __init__(self, scene, ):
+    def __init__(self, scene ):
         super().__init__(scene, self.__class__.op_title)
 
         self.value = None

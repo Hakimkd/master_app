@@ -6,7 +6,7 @@ from examples.example_calculator.calc_conf import CALC_NODES, get_class_from_opc
 from nodeeditor.node_editor_widget import NodeEditorWidget
 from nodeeditor.node_node import Node
 from nodeeditor.utils import dumpException
-from examples.example_calculator.PP import Example
+# from examples.example_calculator.PP import Example
 
 DEBUG = False
 DEBUG_CONTEXT = False
@@ -28,7 +28,10 @@ class CalculatorSubWindow(NodeEditorWidget):
         self.scene.setNodeClassSelector(self.getNodeClassFromData)
 
         self._close_event_listeners = []
-        Example.showDialog(self)
+
+        # Example.showDialog(self)
+
+
 
     def getNodeClassFromData(self, data):
         if 'op_code' not in data: return Node
